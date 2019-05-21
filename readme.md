@@ -1,5 +1,5 @@
-# Simple Expressjs Starter
-Simple Express v.4 Starter Template demonstrating API Endpoints
+# Expressjs API Template
+Simple Expressjs v.4 Starter Template demonstrating API Endpoints with local data.
 
 ## Included
 * express 4
@@ -12,4 +12,4 @@ Simple Express v.4 Starter Template demonstrating API Endpoints
 `npm install`
 
 ## Usage
-`npm start`
+`npm run dev`

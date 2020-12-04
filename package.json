@@ -1,7 +1,7 @@
 {
-	"name": "express-api",
+	"name": "expressjs-starter",
 	"version": "1.0.0",
-	"description": "a simple express api",
+	"description": "expressjs starter",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index",
@@ -10,9 +10,10 @@
 	"author": "Ardian Shala",
 	"license": "MIT",
 	"dependencies": {
-		"express": "4.17.0"
+		"express": "4.17.1",
+		"helmet": "^4.2.0"
 	},
 	"devDependencies": {
-		"nodemon": "^1.19.0"
+		"nodemon": "^2.0.6"
 	}
 }

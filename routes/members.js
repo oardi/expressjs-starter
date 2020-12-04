@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-let members = require('../../members');
+let members = require('../members');
 
 router.get('/', (req, res, next) => {
 	res.json(members);

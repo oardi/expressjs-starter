@@ -11,9 +11,9 @@
 	"license": "MIT",
 	"dependencies": {
 		"express": "4.17.1",
-		"helmet": "^4.2.0"
+		"helmet": "^4.6.0"
 	},
 	"devDependencies": {
-		"nodemon": "^2.0.6"
+		"nodemon": "^2.0.12"
 	}
 }

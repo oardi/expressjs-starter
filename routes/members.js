@@ -8,13 +8,11 @@ router.get('/', (req, res, next) => {
 });
 
 router.get('/:id', (req, res) => {
-	console.log(req.params.id);
 	const member = members.find(m => m.id === +req.params.id);
 	res.json(member);
 });
 
 router.post('/', (req, res) => {
-	console.log(req.body);
 	const ids = members.map(m => m.id);
 	let newMember = {
 		id: Math.max(...ids) + 1,
@@ -26,7 +24,6 @@ router.post('/', (req, res) => {
 });
 
 router.put('/:id', (req, res) => {
-	console.warn(req.params);
 	let toUpdateMember = members.find(m => m.id === +req.params.id);
 	if (toUpdateMember) {
 		toUpdateMember.firstName = req.body.firstName;
@@ -38,7 +35,6 @@ router.put('/:id', (req, res) => {
 });
 
 router.delete('/:id', (req, res) => {
-	console.warn(req.params.id);
 	members = members.filter(m => m.id !== +req.params.id);
 	res.json('deleted member with id: ' + req.params.id);
 });

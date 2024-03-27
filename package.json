@@ -10,7 +10,7 @@
 	"author": "Ardian Shala",
 	"license": "MIT",
 	"dependencies": {
-		"express": "4.17.2",
+		"express": "4.19.2",
 		"helmet": "^5.0.1"
 	},
 	"devDependencies": {
